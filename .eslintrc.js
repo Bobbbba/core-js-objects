@@ -2,7 +2,7 @@ module.exports = {
   root: true,
   env: {
     commonjs: true,
-    es6: true,
+    es2024: true,
     node: true,
     mocha: true,
   },
@@ -12,7 +12,7 @@ module.exports = {
     SharedArrayBuffer: 'readonly',
   },
   parserOptions: {
-    ecmaVersion: 2017,
+    ecmaVersion: 2024,
   },
-   
+  noInlineConfig: true,
 };
